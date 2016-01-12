@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Abp.Zero.EntityFramework</name>
+    </assembly>
+    <members>
+        <member name="T:Abp.Zero.EntityFramework.AbpZeroDbContext`3">
+            <summary>
+            DbContext for ABP zero.
+            </summary>
+        </member>
+        <member name="M:Abp.Zero.EntityFramework.AbpZeroDbContext`3.#ctor">
+            <summary>
+            Default constructor.
+            Do not directly instantiate this class. Instead, use dependency injection!
+            </summary>
+        </member>
+        <member name="M:Abp.Zero.EntityFramework.AbpZeroDbContext`3.#ctor(System.String)">
+            <summary>
+            Constructor with connection string parameter.
+            </summary>
+            <param name="nameOrConnectionString">Connection string or a name in connection strings in configuration file</param>
+        </member>
+        <member name="M:Abp.Zero.EntityFramework.AbpZeroDbContext`3.#ctor(System.Data.Common.DbConnection,System.Boolean)">
+            <summary>
+            This constructor can be used for unit tests.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Tenants">
+            <summary>
+            Tenants
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Roles">
+            <summary>
+            Roles.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Users">
+            <summary>
+            Users.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.UserLogins">
+            <summary>
+            User logins.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.UserRoles">
+            <summary>
+            User roles.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Permissions">
+            <summary>
+            Permissions.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.RolePermissions">
+            <summary>
+            Role permissions.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.UserPermissions">
+            <summary>
+            User permissions.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Settings">
+            <summary>
+            Settings.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.AuditLogs">
+            <summary>
+            Audit logs.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Editions">
+            <summary>
+            Editions.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.FeatureSettings">
+            <summary>
+            FeatureSettings.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.TenantFeatureSettings">
+            <summary>
+            TenantFeatureSetting.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.EditionFeatureSettings">
+            <summary>
+            EditionFeatureSettings.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.Languages">
+            <summary>
+            Languages.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.LanguageTexts">
+            <summary>
+            LanguageTexts.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.OrganizationUnits">
+            <summary>
+            OrganizationUnits.
+            </summary>
+        </member>
+        <member name="P:Abp.Zero.EntityFramework.AbpZeroDbContext`3.UserOrganizationUnits">
+            <summary>
+            UserOrganizationUnits.
+            </summary>
+        </member>
+        <member name="T:Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule">
+            <summary>
+            Entity framework integration module for ASP.NET Boilerplate Zero.
+            </summary>
+        </member>
+    </members>
+</doc>
